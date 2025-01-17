@@ -1,13 +1,14 @@
 # Chance-Constrained Stochatsic Optimal Control 
 
 ## Overview
-In this repository, we solve a continuous-time chance-constrained stochstic optimal control problem using path integral controller for three systems:
 
-(1) single integrator (2D state space)\
-(2) unicycle (4D state space)\
-(3) car model (5D state space)
+This repository addresses a continuous-time chance-constrained stochastic optimal control problem using a path integral controller for the following systems:
 
-For more details, checkout the [paper](https://ieeexplore.ieee.org/abstract/document/9993330).
+1. **Single Integrator** (2D state space)  
+2. **Unicycle** (4D state space)  
+3. **Car Model** (5D state space)  
+
+For further details, refer to the [paper](https://ieeexplore.ieee.org/abstract/document/9993330).
 
 ## How to Use This Repository
 
