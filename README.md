@@ -19,9 +19,9 @@ For more details, checkout the [paper](https://ieeexplore.ieee.org/abstract/docu
 
 3. **Find $\eta$ for Given $\Delta$ Values**  
    Run the `find_eta_star.m` script to solve the gradient ascent problem. This script generates three plots:  
-   - (i) $P_{fail}$ vs $\Delta$  
-   - (ii) $\eta$ vs $\Delta$  
-   - (iii) $P_{fail}$ vs $\eta$
+   - $P_{fail}$ vs $\Delta$  
+   - $\eta$ vs $\Delta$  
+   - $P_{fail}$ vs $\eta$
 
 4. **Plot Stochastic Trajectories**  
    Use the `main.m` file to plot stochastic trajectories for a given value of $\Delta$ and $\eta$. The value of $\eta$ for the desired $\Delta$ is obtained from Step 3.
