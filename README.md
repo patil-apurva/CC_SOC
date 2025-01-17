@@ -2,13 +2,16 @@
 
 ## Overview
 In this repository, we solve a continuous-time chance-constrained stochstic optimal control problem using path integral controller for three systems:
-  
-(1) single integrator (2D system)\
-(2) unicycle (4D system)\
-(3) card model (5D system)\
+
+(1) single integrator (2D state space)\
+(2) unicycle (4D state space)\
+(3) card model (5D state space)
+
 For more details, checkout the [paper](https://ieeexplore.ieee.org/abstract/document/9993330).
 
-## Description
+## How to use this repository?
+1. Navigate to the subfolder correspoding to the system dynamics that you want to use
+2. To find the $\eta^*$ for the given values of $Delta$ run 'find_eta_star.m'. 
 
 
 
