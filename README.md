@@ -9,11 +9,22 @@ In this repository, we solve a continuous-time chance-constrained stochstic opti
 
 For more details, checkout the [paper](https://ieeexplore.ieee.org/abstract/document/9993330).
 
-## How to use this repository?
-1. Navigate to the subfolder correspoding to the system dynamics that you want to use
-2. To find the $\eta$ for the given values of $\Delta$ run 'find_eta_star.m'. It solves the gradient ascent problem and plots three figures: $P_{fail}$ vs $\Delta$, $\eta$
- vs $\Delta$ and $P_{fail}$ vs $\eta$.
-3. To plot the stochastic trajectories for the given value of $\Delta$ and $\eta$ run the 'main.m' file. The value of $\eta$ corresponding to the desired $\Delta$ is obtained from step 2.
+## How to Use This Repository
+
+1. **Navigate to the System Dynamics Subfolder**  
+   Go to the subfolder corresponding to the system dynamics you wish to use.
+
+2. **Configure the Desired Environment**  
+   Set up the outer boundary and obstacles in the `parameters.m` file as needed.
+
+3. **Find $\eta$ for Given $\Delta$ Values**  
+   Run the `find_eta_star.m` script to solve the gradient ascent problem. This script generates three plots:  
+   - (i) $P_{fail}$ vs $\Delta$  
+   - (ii) $\eta$ vs $\Delta$  
+   - (iii) $P_{fail}$ vs $\eta$
+
+4. **Plot Stochastic Trajectories**  
+   Use the `main.m` file to plot stochastic trajectories for a given value of $\Delta$ and $\eta$. The value of $\eta$ for the desired $\Delta$ is obtained from Step 3.
 
 ## Citation
 If you found this work useful, please cite the below paper,
