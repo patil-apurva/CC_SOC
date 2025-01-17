@@ -1,7 +1,8 @@
 # Chance-Constrained Stochatsic Optimal Control 
 
 ## Overview
-In this repository, we solve a continuous-time chance-constrained stochstic optimal control problem using path integral controller for three systems:\ 
+In this repository, we solve a continuous-time chance-constrained stochstic optimal control problem using path integral controller for three systems:
+  
 (1) single integrator (2D system)\
 (2) unicycle (4D system)\
 (3) card model (5D system)\
