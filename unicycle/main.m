@@ -7,7 +7,7 @@ rng(seed); % Reset the CPU random number generator.
 gpurng(seed); % Reset the GPU random number generator.
 
 Delta = 0.1;
-eta = 0.6416; %eta_star found by solving the gradient ascent problem for the given value of Delta 
+eta = 0.6521; %eta_star found by solving the gradient ascent problem for the given value of Delta 
 
 fail_cnt = 0; %number of trajectories failed
 
